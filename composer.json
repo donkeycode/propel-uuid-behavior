@@ -1,0 +1,29 @@
+{
+    "name": "donkeycode/propel-uuid-behavior",
+    "description": "Help you add an uuid column",
+    "type": "propel-behavior",
+    "minimum-stability": "dev",
+    "require": {
+        "propel/propel": "2.0.*@dev",
+        "ramsey/uuid": "~3.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cedric LOMBARDOT",
+            "email": "cedric.lombardot@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "~3.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "DonkeyCode\\Propel\\Behavior\\Uuid\\" : "src"
+        }
+    },
+    "extra": {
+        "name": "uuid",
+        "class": "DonkeyCode\\Propel\\Behavior\\Uuid\\UuidBehavior"
+    }
+}
