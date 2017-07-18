@@ -1,6 +1,6 @@
 UuidBehavior for [Propel2](https://github.com/propelorm/Propel2)
 ==============================================
-[![Build Status](https://travis-ci.org/donkeycode/UuidBehavior.svg?branch=master)](https://travis-ci.org/donkeycode/UuidBehavior)
+[![Build Status](https://travis-ci.org/donkeycode/propel-uuid-behavior.svg?branch=master)](https://travis-ci.org/donkeycode/propel-uuid-behavior)
 
 This behavior adds a uuid capacity to your model
 
