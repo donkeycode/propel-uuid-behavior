@@ -25,10 +25,15 @@ class UuidBehavior extends Behavior
         'uuid_column'     => self::DEFAULT_UUID_COLUMN,
     );
 
+    public function __construct()
+    {
+        $this->dirname = __DIR__.'/';
+    }
+
     /**
      * {@inheritdoc}
      */
-    public function modifyTable()
+    public function modifyTable(): void
     {
         if (!$this->getTable()->hasColumn($this->getParameter('uuid_column'))) {
             $column = array(
