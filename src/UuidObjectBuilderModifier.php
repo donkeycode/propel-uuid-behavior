@@ -21,7 +21,7 @@ class UuidObjectBuilderModifier
             'uuidColumnSetter'      => $this->getColumnSetter('uuid_column'),
             'uuidColumnGetter'      => $this->getColumnGetter('uuid_column'),
             'version'               => 4,
-        ));
+        ), '../templates/');
     }
 
     protected function getColumnSetter($columnName)
