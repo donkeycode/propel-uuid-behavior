@@ -4,7 +4,7 @@
     "type": "propel-behavior",
     "minimum-stability": "dev",
     "require": {
-        "propel/propel": "*",
+        "propel/propel": "2.0.*@dev",
         "ramsey/uuid": "~3.0"
     },
     "license": "MIT",
